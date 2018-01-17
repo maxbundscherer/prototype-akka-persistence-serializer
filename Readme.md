@@ -31,7 +31,7 @@ SBT (and for default journal and snapshot storage: redis-server) required
 
 There are many possibilities to run journal and snapshot-storage. In this project are included:
 
-- redis snapshot-storage and event storage (**default**)
+- redis snapshot- and event-storage (**default**)
 - local file-system snapshot-storage and in memory event storage
 
 You can extend this project with any other journal and snapshot-storage extension(s)
