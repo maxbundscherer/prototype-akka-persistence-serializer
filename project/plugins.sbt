@@ -1,0 +1,4 @@
+/**
+  * Global Plugins
+  */
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.5.0")
