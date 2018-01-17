@@ -7,7 +7,7 @@
 
 Author: Maximilian Bundscherer (https://bundscherer-online.de)
 
-Test-Coverage: **82.24%**
+Test-Coverage: **86.99%**
 
 ## Description
 
