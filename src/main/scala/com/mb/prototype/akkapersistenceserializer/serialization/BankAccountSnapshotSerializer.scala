@@ -50,7 +50,7 @@ class BankAccountSnapshotSerializer extends SerializerWithStringManifest {
   }
 
   /**
-    * Convert from command to binary
+    * Convert to binary
     * @param o Command
     * @return Array
     */
