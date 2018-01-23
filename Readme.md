@@ -11,7 +11,7 @@ Test-Coverage: **86.99%**
 
 ## Description
 
-Project is written in **scala**. Used akka persistence toolkit and custom serializer based on circe (json library for scala).
+The project is written in **scala**. Used akka persistence toolkit and custom serializer based on circe (json library for scala).
 
 SBT (and for default journal and snapshot storage: redis-server) required
 
