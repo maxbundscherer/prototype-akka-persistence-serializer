@@ -11,11 +11,11 @@ Test-Coverage: **86.99%**
 
 ## Description
 
-The project is written in **scala**. Used akka persistence toolkit and custom serializer based on circe (json library for scala).
+The project is written in **scala**. Akka persistence toolkit and custom serializer based on circe (json library for scala) have been used.
 
 SBT (and for default journal and snapshot storage: redis-server) required
 
-- See config located in ``./src/main/resources/application.conf`` (opt change redis config)
+- See config located in ``./src/main/resources/application.conf`` (opt. change redis config)
 - Test project with ``sbt clean coverage test``
 - Generate coverage report(s) with ``sbt coverageReport``
 
