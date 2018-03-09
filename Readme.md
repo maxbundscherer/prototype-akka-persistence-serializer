@@ -13,7 +13,7 @@ Test-Coverage: **86.99%**
 
 The project is written in **scala**. Akka persistence toolkit and custom serializer based on circe (json library for scala) have been used.
 
-SBT (and for default journal and snapshot storage: redis-server) required
+SBT (and for redis journal and snapshot storage: redis-server) required
 
 - See config located in ``./src/main/resources/application.conf`` (opt. change redis config)
 - Test project with ``sbt clean coverage test``
@@ -31,8 +31,8 @@ SBT (and for default journal and snapshot storage: redis-server) required
 
 There are many possibilities to run journal and snapshot-storage. In this project there are included:
 
-- redis snapshot- and event-storage (**default**)
-- local file-system snapshot-storage and in memory event storage
+- local file-system snapshot-storage and in memory event storage (**default**)
+- redis snapshot- and event-storage
 
 You can extend this project with any other journal and snapshot-storage extension(s)
 
